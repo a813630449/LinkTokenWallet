@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title"
+        layout="@layout/title" >
+    </include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:layout_margin="20dip"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="关于软件"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" 
+                android:text="@string/about"
+                android:layout_weight="1"/>
+            
+            <TextView
+                android:id="@+id/version"
+                android:layout_width="match_parent"
+                android:layout_height="20dip"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="100dip"
+                android:gravity="center"
+                android:text="当前软件版本 V1.0 "
+                android:layout_weight="1"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
