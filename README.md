@@ -2,7 +2,7 @@
 
 链克助手安卓版
 
-成品下载地址：[https://fir.im/637k]https://fir.im/637k
+成品下载地址：https://fir.im/637k
 
 交流群：638901126
 
